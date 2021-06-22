@@ -1,0 +1,45 @@
+*{
+  margin: 10px;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+  margin-left: 20px;
+}
+#userInput input{
+  padding: 8px;
+  box-shadow: rgba(6, 87, 163, 0.2) 0px 3px 8px;
+  border: none;
+  outline: none;
+  /* margin: 10px; */
+}
+#userInput input:nth-child(2){
+  color: white;
+  background-color: rgba(6, 87, 163, 1);
+}
+
+#userInput input:focus{
+  box-shadow: rgba(6, 87, 163, 0.6) 0px 3px 8px;
+  border: none;
+  outline: none;
+}
+
+#results{
+  /* border: 1px solid grey; */
+}
+.result{
+  box-shadow: rgba(6, 87, 163, 0.2) 0px 3px 8px;
+  position: relative;
+  padding: 5px;
+}
+
+.resultHover{
+  box-shadow: rgba(6, 87, 163, 0.6) 0px 3px 8px;
+}
+
+.result p:nth-child(3){
+  position: absolute;
+  top: 5px;
+  right: 5px;
+}
